@@ -1,5 +1,7 @@
 # Digital Demand Discovery
 
+[English](README.md) | [简体中文](README.zh-CN.md)
+
 A skill for clarifying digitalization, information-management, automation, and AI-agent needs before committing to a solution.
 
 Use it when a user says they want to build a tool, workflow, system, dashboard, agent, database, internal app, or automation, but the real business pain point, process, data flow, and best solution carrier still need to be discovered.
@@ -37,6 +39,11 @@ See [docs/install.md](docs/install.md).
 ## Compatibility
 
 See [docs/compatibility.md](docs/compatibility.md).
+
+## Contributors
+
+- HANKSEN
+- Codex (GPT-5.5)
 
 ## License
 
