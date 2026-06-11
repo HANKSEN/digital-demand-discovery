@@ -34,7 +34,11 @@
 
 ## 安装
 
-见 [docs/install.md](docs/install.md)。
+```bash
+npx skills@latest add HANKSEN/digital-demand-discovery
+```
+
+Codex、Claude Code 和手动安装说明见 [docs/install.md](docs/install.md)。
 
 ## 兼容性
 

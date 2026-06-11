@@ -2,19 +2,33 @@
 
 This repository is designed as a standalone skill repository.
 
-## Claude Code
+## Recommended One-Line Install
 
-If your skill installer supports GitHub repositories:
+Use the skills.sh-compatible installer:
 
 ```bash
-npx skills@latest add <owner>/digital-demand-discovery
+npx skills@latest add HANKSEN/digital-demand-discovery
 ```
 
-The Claude manifest is in `.claude-plugin/plugin.json`.
+The installer should let you choose which supported coding agents to install the skill into.
+
+## Claude Code
+
+Use the one-line installer above when possible. For manual personal installation:
+
+```bash
+git clone https://github.com/HANKSEN/digital-demand-discovery.git ~/.claude/skills/digital-demand-discovery
+```
+
+The Claude Code manifest is in `.claude-plugin/plugin.json`.
 
 ## Codex
 
-Use the repository as a local skill folder or install it through the Codex skill/plugin mechanism supported by your environment.
+Use the one-line installer above when your Codex environment supports it. For manual personal installation:
+
+```bash
+git clone https://github.com/HANKSEN/digital-demand-discovery.git ~/.agents/skills/digital-demand-discovery
+```
 
 The Codex-oriented files are:
 
@@ -24,16 +38,16 @@ The Codex-oriented files are:
 
 ## Manual Installation
 
-Copy or symlink this repository into the skills directory used by your agent runtime.
+If you already cloned this repository somewhere else, symlink it into the skills directory used by your agent runtime.
 
-Common examples:
+Examples:
 
 ```bash
 # Claude Code personal skills
-~/.claude/skills/digital-demand-discovery
+ln -s /path/to/digital-demand-discovery ~/.claude/skills/digital-demand-discovery
 
 # Codex personal skills
-~/.agents/skills/digital-demand-discovery
+ln -s /path/to/digital-demand-discovery ~/.agents/skills/digital-demand-discovery
 ```
 
 ## Invocation Examples

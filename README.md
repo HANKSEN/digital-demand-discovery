@@ -34,7 +34,11 @@ The skill drives a focused discovery conversation and ends with a structured doc
 
 ## Installation
 
-See [docs/install.md](docs/install.md).
+```bash
+npx skills@latest add HANKSEN/digital-demand-discovery
+```
+
+See [docs/install.md](docs/install.md) for Codex, Claude Code, and manual installation notes.
 
 ## Compatibility
 
