@@ -1,0 +1,6 @@
+interface:
+  display_name: "Digital Demand Discovery"
+  short_description: "Clarify digital needs into solution plans"
+  default_prompt: "Use $digital-demand-discovery to clarify this digitalization need and produce a demand insight and solution design document."
+policy:
+  allow_implicit_invocation: true
