@@ -1,6 +1,6 @@
 interface:
   display_name: "Digital Demand Discovery"
   short_description: "Clarify digital needs into solution plans"
-  default_prompt: "Use $digital-demand-discovery to clarify this digitalization need and produce a demand insight and solution design document."
+  default_prompt: "Use $digital-demand-discovery to clarify this need. Follow the first-principles gate, ask one question at a time, do not define MVP before current process, breakpoints, data flow, constraints, and solution carriers are clear, and end with the standard demand insight document."
 policy:
   allow_implicit_invocation: true

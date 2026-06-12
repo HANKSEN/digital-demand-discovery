@@ -22,6 +22,7 @@ Use this when the user gives a rough demand such as "I want a tool to solve X":
 | Workflow is messy | User journey, service blueprint, event storming |
 | Data is scattered or unreliable | Data object modeling, information-flow analysis, state lifecycle |
 | Multiple roles collaborate | RACI, service blueprint, permission and responsibility boundaries |
+| AI, automation, APIs, hosting, repeated jobs, or budget constraints are involved | Cost/resource efficiency analysis, failure-mode analysis |
 | Feature priority is unclear | RICE, MoSCoW, Kano when user expectations differ by segment |
 | Risk or uncertainty is high | Assumption mapping, pre-mortem, validation planning |
 | Long-term planning is requested | Opportunity solution tree, staged roadmap |
