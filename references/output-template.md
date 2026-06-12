@@ -35,6 +35,12 @@ Use this structure for the final document unless the user asks for another forma
 ## 10. Key Assumptions
 [Important beliefs that still require confirmation.]
 
+## 10.1 Facts, Assumptions, Inferences, and Open Questions
+
+| Item | Type | Source | Needs Validation |
+|---|---|---|---|
+| [Item] | Confirmed fact / User preference / Model inference / Assumption / Open question | [Conversation / analysis / external source] | Yes/No |
+
 ## 11. Solution Options
 [Compare credible carriers such as process, spreadsheet, low-code, automation, agent, or custom software.]
 
@@ -49,6 +55,9 @@ Use this structure for the final document unless the user asks for another forma
 
 ## 15. Risks and Validation Plan
 [Main risks, cheapest validation steps, and open questions.]
+
+## Appendix A. Implementation Notes
+[Optional. Put technical architecture, folder structure, scheduling, token strategy, schemas, webhook details, API choices, and operational notes here instead of mixing them into the main demand insight.]
 ```
 
 ## Quality Bar
@@ -57,4 +66,5 @@ Use this structure for the final document unless the user asks for another forma
 - Be explicit about assumptions.
 - Make the recommendation falsifiable.
 - Separate MVP from future roadmap.
+- Keep implementation details in appendices unless they are needed to justify the solution carrier.
 - Avoid generic "build a platform" language.

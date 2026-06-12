@@ -33,7 +33,21 @@ Prefer the simplest carrier that can validate the core value:
 ### Option A: [Carrier]
 - Fit:
 - Cost:
+- Cost/resource profile:
 - Risk:
 - Validation speed:
+- Data/control:
+- Stability:
+- Existing workflow impact:
 - Why choose / not choose:
 ```
+
+## Scorecard
+
+Use this when the recommendation could be disputed or when several carriers look viable:
+
+| Option | Validation speed | Initial cost | Maintenance cost | Data control | Stability | Extensibility | Workflow fit |
+|---|---|---|---|---|---|---|---|
+| [Option] | High/Med/Low | High/Med/Low | High/Med/Low | High/Med/Low | High/Med/Low | High/Med/Low | High/Med/Low |
+
+For AI, automation, or data-heavy solutions, explicitly discuss token/API cost, caching, retry behavior, logging, scheduling, rate limits, and failure recovery when relevant.

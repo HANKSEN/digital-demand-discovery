@@ -24,6 +24,8 @@ Common failure modes:
 - Reports exist but no decision changes.
 - Automation amplifies bad data.
 - MVP includes too many low-value features.
+- Token, API, hosting, or maintenance cost grows faster than value.
+- Scheduled jobs fail silently or cannot recover from partial failures.
 
 ## Roadmap Structure
 
@@ -40,3 +42,4 @@ Use three phases:
 - Prototype the table/form before custom development.
 - Test an agent on historical cases with human review.
 - Measure baseline time, error rate, handoff delay, or missed follow-up before building.
+- Run a short cost trial for AI/API-heavy workflows and record token/API calls, retries, and manual corrections.
